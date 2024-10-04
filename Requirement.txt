@@ -1,0 +1,43 @@
+Random Number Generation
+
+    -Some sentence are floating with cool animation:
+        -Welcome to the Number Guessing Game!
+        -Get ready to test your luck and skill.
+        -Can you guess the correct number? Let's find out!
+
+    -Generate a random number based on difficulty level:
+        -Easy: Range 1-50, unlimited attempts.
+        -Medium: Range 1-100, 10 attempts.
+        -Hard: Range 1-200, 7 attempts.
+    
+    
+    Difficulty Levels:
+        -Allow user to select difficulty level which defines the number range and max attempts.
+    
+    
+    User Input:
+        -Accept integer guesses from the user, ensuring they are within the correct range.
+
+
+    Game Feedback:
+        -Provide feedback after each guess:
+            -If too high, prompt: "Lower number please."
+            -If too low, prompt: "Higher number please."
+        -End game when the player guesses correctly or exceeds allowed attempts.
+
+
+    Hints:
+        -Provide a hint (even/odd) after 5 incorrect guesses.
+
+
+    Encouragement Messages:
+        -Display random motivational messages after every 3 incorrect guesses.
+
+
+    Score System:
+        -Start with 100 points, deduct 10 points per incorrect guess.
+        -Display final score at the end.
+
+
+    End Game:
+        -Display correct number, total attempts, and final score after the game ends.
